@@ -3,8 +3,8 @@
    <description name="Arden Syntax Editor Update Site" url="http://arden2bytecode.sf.net/eclipse/update">
       This is the update site for the Arden Syntax Editor to be used in conjunction with Arden2ByteCode.
    </description>
-   <feature url="features/Arden Syntax Editor_1.0.0.201202162021.jar" id="Arden Syntax Editor" version="1.0.0.201202162021">
-      <category name="ArdenSyntaxEditor"/>
+   <feature url="features/ArdenSyntaxEditor_1.0.0.201202221105.jar" id="ArdenSyntaxEditor" version="1.0.0.201202221105">
+      <category name="ArdenSyntaxTools"/>
    </feature>
-   <feature url="features/ArdenSyntaxEditor_1.0.0.201202162022.jar" id="ArdenSyntaxEditor" version="1.0.0.201202162022"/>
+   <category-def name="ArdenSyntaxTools" label="Arden Syntax Tools"/>
 </site>
