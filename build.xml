@@ -1,0 +1,10 @@
+<project name="mirrorsite" default="mirror">
+	<target name="mirror">	
+		<p2.mirror source="file:update/ArdenSyntaxEditor" ignoreErrors="true" log="mirrorlog.txt">
+		   <destination compressed="true" name="${p2.repo.name}" location="file:${updateRepo}" append="true" />
+		   <comparator comparator="org.eclipse.equinox.p2.repository.tools.jar.comparator" comparatorLog="${buildlogs}/comparatorlog.txt">
+			  <repository location="file:${updateSite}" />
+		   </comparator>
+		</p2.mirror>
+	</target>
+</project>
